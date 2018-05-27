@@ -3,11 +3,11 @@ To define a programming language, we define three things:
 2: Equivalences
 3: Reductions
 
-Grammer gives us a way to say what is or is not a valid program construction:
+Grammar gives us a way to say what is or is not a valid program construction:
   - (P|Q is defined in the Pi Calc, but P*Q has no meaning)
   - See Context Free Grammars
 
-Equivalences give us a way to fix the fact that our grammer is usually "too fined grained" to express our meaning fully:
+Equivalences give us a way to fix the fact that our grammar is usually "too fined grained" to express our meaning fully:
   - (When we say P|Q, in Pi Calc, we want the "|" to mean "run concurrently with", and have Q|P be another way to say the same thing.)
   - these are defined using bi-directional rewrite rules. we can use these patterns to transform the term of our program without changing the computation that the program performs.
 
@@ -50,7 +50,7 @@ The tension lies in the dynamics of the process elements:
   Cat Theory puts these in structure preserving maps
   Computing puts these in uni-directional, structure forgetting, rewrite rules
 
-???Okay, Greg looses me a bit here, because why must these maps be structure preserving, couldn't we use functions that don't have an inverse, why must these functions be "structure preserving"? (I know next to nothing about Cat Theory)
+???Okay, Greg loses me a bit here, because why must these maps be structure preserving, couldn't we use functions that don't have an inverse, why must these functions be "structure preserving"? (I know next to nothing about Cat Theory)
 
 -------
 
